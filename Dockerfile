@@ -3,7 +3,7 @@
 
 # data science notebook
 # https://hub.docker.com/repository/docker/ucsdets/datascience-notebook/tags
-FROM https://hub.docker.com/repository/docker/akhi0254/datahubenvupdate/env
+FROM akhi0254/datahubenvupdate:env
 
 #jupyter/scipy-notebook:d113a601dbb8
 

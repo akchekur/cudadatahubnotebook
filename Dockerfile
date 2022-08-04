@@ -3,7 +3,9 @@
 
 # data science notebook
 # https://hub.docker.com/repository/docker/ucsdets/datascience-notebook/tags
-FROM jupyter/scipy-notebook:d113a601dbb8
+FROM https://hub.docker.com/repository/docker/akhi0254/datahubenvupdate/env
+
+#jupyter/scipy-notebook:d113a601dbb8
 
 LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 

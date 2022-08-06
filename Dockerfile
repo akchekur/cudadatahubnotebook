@@ -12,7 +12,7 @@ LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 USER root
 
 # CUDA Toolkit
-RUN conda install -y cudatoolkit=11.1 cudnn nccl && \
+RUN conda install -y cudatoolkit=10.2 cudnn nccl && \
     conda clean --all -f -y
 
 # Tensorflow 2.*
